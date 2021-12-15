@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -b",
-    "prepack": "rm -rf dist && npm build",
+    "prepack""rm -rf dist && npm build",
     "test": "jest",
     "codegen": "./node_modules/.bin/subql codegen"
   },
@@ -16,7 +16,7 @@
     "schema.graphql",
     "project.yaml"
   ],
-  "author": "ilia",
+  "author": "sonjashlepko",
   "license": "Apache-2.0",
   "devDependencies": {
     "@polkadot/api": "^6",
